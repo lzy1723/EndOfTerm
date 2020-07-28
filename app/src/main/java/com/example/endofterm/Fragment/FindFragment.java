@@ -34,7 +34,7 @@ import butterknife.BindView;
 /**
  * A simple {@link Fragment} subclass.
  */
-//继承BaseFragment的所有方法
+//继承BaseFragment
 public class FindFragment extends BaseFragment<MainPresenter> implements MainView {
 
     @BindView(R.id.rlv_find)
